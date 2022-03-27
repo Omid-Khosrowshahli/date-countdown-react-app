@@ -1,0 +1,11 @@
+body {
+  background: url('../../images/dark_forest.jpg');
+  background-position: center;
+}
+
+
+.App {
+  height: 100vh;
+  text-align: center;
+  font-weight: 700;
+}

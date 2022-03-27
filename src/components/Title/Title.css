@@ -1,0 +1,31 @@
+h1 {
+  color: white;
+  font-size: 75px;
+  margin-top: 160px;
+}
+
+.soon {
+  animation-name: soon;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes soon {
+  0% {
+    color: #222;
+    text-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  }
+  50% {
+    color: #FFCA03;
+    text-shadow: 0 5px 30px #FFCA03;
+  }
+  50.1% {
+    color: #FFCA03;
+    text-shadow: 0 5px 30px #FFCA03;
+  }
+  100% {
+    color: #222;
+    text-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  }
+}
